@@ -63,11 +63,28 @@
     "observações": "Se o produto tiver muito pouco tempo de comprado considere que possa ser devido a baixa pressão de agua  - Visita Infrutifera"
   },
   "C554": {
-    "peças": ["Serpentinas (Interna e externa ) DB96"],
+    "peças": ["Serpentinas -Interna (DB96)", "Serpentinas - Externa (DB96)"],
     "causas": [
       "Pequeno vazamento de gás em alguma parte - serpentinas, tubos de conexão",
       "Instalação incorreta"
     ],
     "observações": "Se o produto tiver muito pouco tempo de comprado considere uma possivel - Visita Infrutifera"
+  },
+  "C458": {
+    "peças": [
+      "Moto -ventilador - Unidade externa (DB31)",
+      "Placa externa + eeprom (DB92)"
+    ],
+    "causas": ["Ventilador da unidade externa não funionou"],
+    "observações": "Verificar se não existe obstrução no ventilador ou se o produto não está com o cabo do ventilador danificado"
+  },
+  "C461": {
+    "peças": ["Compressor", "Placa externa + eeprom (DB92)"],
+    "causas": [
+      "Compressor não conseguiu partir",
+      "Compressor travado",
+      "Excesso de fluido refrigerante"
+    ],
+    "observações": "Verificar se o compressor está com algum defeito ou se existe excesso de fluido refrigerante, se o produto está com a instalação correta"
   }
 }
