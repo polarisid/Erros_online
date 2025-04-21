@@ -1,0 +1,73 @@
+{
+  "C101": {
+    "peças": ["PLACA INTERNA (DB92)", "PLACA EXTERNA (DB92)", "EEPROM (DB82)"],
+    "causas": [
+      "Problema em uma das placas",
+      "Curto ou carbonização nas placas",
+      "Fiação invertida, rompida ou com defeito",
+      "Unidade Externa não está alimentada"
+    ],
+    "observações": "Verifique o chicote e conectores antes de trocar peças. Verificar quanto tempo de instalado, caso seja em pouco tempo grande chance de ser exclusão de garantia devido a má instalação"
+  },
+  "C154": {
+    "peças": ["Placa Main Interna (DB92)", "Motor da turbina (DB31)"],
+    "causas": [
+      "Falha interna no circuito do motor do ventilador",
+      "Cabo do motor e PBA principal danificada"
+    ],
+    "observações": "Verifique com o cliente se existe algum dano no produto ou na turbina ou obstrução na turbina"
+  },
+  "C155": {
+    "peças": ["Placa Main Interna (DB92)", "Motor da turbina (DB31)"],
+    "causas": [
+      "Falha interna no circuito do motor do ventilador",
+      "Cabo do motor e PBA principal danificada"
+    ],
+    "observações": "Verifique com o cliente se existe algum dano no produto ou na turbina ou obstrução na turbina"
+  },
+  "C163": {
+    "peças": ["Placa Main Interna (DB92)"],
+    "causas": [
+      "Erro de Codigo de opção",
+      "Problema na placa main da evaporadora - Unidade Interna"
+    ],
+    "observações": "Configuração do codigo de opção ou problema na placa principal da evaporadora"
+  },
+  "C162": {
+    "peças": ["Placa Main Interna (DB92)"],
+    "causas": [
+      "Erro de Codigo de opção",
+      "Problema na placa main da evaporadora - Unidade Interna"
+    ],
+    "observações": "Configuração do codigo de opção ou problema na placa principal da evaporadora"
+  },
+  "5C": {
+    "peças": [
+      "Bomba de drenagem (DC31)",
+      "Placa main (DC92) -(EM CASO SE RETORNO OU INTERMITENCIA)"
+    ],
+    "causas": [
+      "Obstrução na bomba de dreno",
+      "Bomba com defeito",
+      "Obstrução no filtro"
+    ],
+    "observações": "Verifique também o filtro de detritos. , peça uma foto do filtro e da bomba de drenagem"
+  },
+  "4C": {
+    "peças": ["Valvula de agua", "Conjunto mangueira de nivel"],
+    "causas": [
+      "Entupimento do filtro de entrada de agua",
+      "Baixa pressão de agua - principalmente quando é residencia",
+      "defeito na valvula de agua"
+    ],
+    "observações": "Se o produto tiver muito pouco tempo de comprado considere que possa ser devido a baixa pressão de agua  - Visita Infrutifera"
+  },
+  "C554": {
+    "peças": ["Serpentinas (Interna e externa ) DB96"],
+    "causas": [
+      "Pequeno vazamento de gás em alguma parte - serpentinas, tubos de conexão",
+      "Instalação incorreta"
+    ],
+    "observações": "Se o produto tiver muito pouco tempo de comprado considere uma possivel - Visita Infrutifera"
+  }
+}
