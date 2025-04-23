@@ -153,7 +153,7 @@ function App() {
     { id: "wifi", top: 160, left: 115, label: "Conectividade Wi-Fi" },
     { id: "gota", top: 160, left: 215, label: "Função Power Cool / Gelo" },
     { id: "folha", top: 205, left: 115, label: "Modo Econômico / Eco" },
-    { id: "copo", top: 205, left: 220, label: "Dispensador de Água" },
+    { id: "copo", top: 205, left: 215, label: "Dispensador de Água" },
     { id: "1c", top: 160, left: 165, label: "Temperatura 1°C" },
     { id: "2c", top: 205, left: 165, label: "Temperatura 2°C" },
     { id: "3c", top: 250, left: 165, label: "Temperatura 3°C" },
@@ -194,7 +194,7 @@ function App() {
       <Tabs>
       <Tab $active={produto === "lavadora"} onClick={() => setProduto("lavadora")}>Lavadora</Tab>
 <Tab $active={produto === "ar"} onClick={() => setProduto("ar")}>Ar-Condicionado</Tab>
-<Tab $active={produto === "tv"} onClick={() => setProduto("tv")}>TV</Tab>
+<Tab $active={produto === "tv"} disabled onClick={() => setProduto("tv")}>TV</Tab>
 <Tab $active={produto === "geladeira"} onClick={() => setProduto("geladeira")}>Geladeira</Tab>
 
       </Tabs>
