@@ -3,12 +3,12 @@
         "tipo": "geladeira",
         "sintoma": "Conectividade Wi-Fi piscando",
         "peças": [
-            "Placa principal",
-            "Módulo de Wi-Fi"
+            "Placa principal"
+            
         ],
         "causas": [
             "Erro na configuração de rede",
-            "Falha de comunicação do módulo"
+            "A geladeira ainda não foi configurada"
         ],
         "observações": "Verifique se a geladeira está próxima do roteador e tente reconectar ao SmartThings."
     },
@@ -41,10 +41,10 @@
     },
     "copo": {
         "tipo": "geladeira",
-        "sintoma": "Dispensador de água piscando",
+        "sintoma": "Erro no Ice maker",
         "peças": [
-            "Motor da bomba de água",
-            "Sensor de nível"
+            "Ice Maker completo",
+            "Placa principal"
         ],
         "causas": [
             "Reservatório vazio",
@@ -54,67 +54,65 @@
     },
     "1c": {
         "tipo": "geladeira",
-        "sintoma": "Indicador de 1°C piscando",
+        "sintoma": "ERRO NA RESISTENCIA DE DEGELO DO FREEZER",
         "peças": [
-            "Sensor de temperatura",
-            "Placa principal"
+            "Conjunto fusivel termico e bimental",
+            "Resistencia de degelo"
         ],
         "causas": [
             "Temperatura não atinge valor esperado",
-            "Erro no sensor"
+            "A geladeira não conseguiu entrar em degelo"
         ],
-        "observações": "Medição pode estar incorreta. Testar sensor de temperatura."
+        "observações": "Verifique se a mesma está com excesso de gelo, no dia da visita é necessário o degelo"
     },
     "2c": {
         "tipo": "geladeira",
-        "sintoma": "Indicador de 2°C piscando",
+        "sintoma": "Erro no sensor de temperatura externa",
         "peças": [
-            "Sensor de temperatura",
+            "Sensor de temperatura externo",
             "Placa principal"
         ],
         "causas": [
-            "Refrigeração lenta",
-            "Ambiente externo muito quente"
+            "Cabo rompido",
+            "Falha no sensor"
         ],
-        "observações": "Verifique o sensor e isolação do produto."
+        "observações": "Verifique se esse sensor pode ser substuido, pois em alguns casos o mesmo é fixo no produto"
     },
     "3c": {
         "tipo": "geladeira",
-        "sintoma": "Indicador de 3°C piscando",
+        "sintoma": "Sensor do refrigerado com defeito",
         "peças": [
-            "Sensor de temperatura",
-            "Placa de controle"
+            "Capa do refrigerador com sensor",
+            "Placa principal"
         ],
         "causas": [
-            "Flutuação de energia",
-            "Problemas na refrigeração"
+            "Erro no sensor de temperatura do refrigerador"
         ],
-        "observações": "Verificar estabilização da energia e funcionamento do compressor."
+        "observações": ""
     },
     "4c": {
         "tipo": "geladeira",
-        "sintoma": "Indicador de 4°C piscando",
+        "sintoma": "Erro no sensor de degelo do freezer",
         "peças": [
-            "Sensor de temperatura",
-            "Compressor"
+            "Sensor de degelo do freezer"
+            
         ],
         "causas": [
-            "Instalação recente",
-            "Sistema ainda estabilizando"
+            "Falha no sensor de degelo"
+            
         ],
-        "observações": "Aguarde até 24h após instalação. Se persistir, testar componentes."
+        "observações": ""
     },
     "7c": {
         "tipo": "geladeira",
-        "sintoma": "Indicador de 7°C piscando",
+        "sintoma": "Erro no motoventilador do freezer",
         "peças": [
-            "Sensor de temperatura",
-            "Placa eletrônica"
+            "Cobertura do freezer",
+            "Placa principal"
         ],
         "causas": [
-            "Refrigeração ineficiente",
-            "Ambiente com alta umidade"
+            "Excesso de gelo e bloqueio"
         ],
-        "observações": "Avaliar se portas estão fechando corretamente e sensor está íntegro."
+        "observações": "Avaliar se portas estão fechando corretamente e a borracha está intacta."
     }
 }
