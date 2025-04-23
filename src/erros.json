@@ -1,182 +1,373 @@
-              {
-                "C101": {
-                  "peças": ["PLACA INTERNA (DB92)", "PLACA EXTERNA (DB92)", "EEPROM (DB82)"],
-                  "causas": [
-                    "Problema em uma das placas",
-                    "Curto ou carbonização nas placas",
-                    "Fiação invertida, rompida ou com defeito",
-                    "Unidade Externa não está alimentada"
-                  ],
-                  "observações": "Verifique o chicote e conectores antes de trocar peças. Verificar quanto tempo de instalado, caso seja em pouco tempo grande chance de ser exclusão de garantia devido a má instalação"
-                },
-                "C154": {
-                  "peças": ["Placa Main Interna (DB92)", "Motor da turbina (DB31)"],
-                  "causas": [
-                    "Falha interna no circuito do motor do ventilador",
-                    "Cabo do motor e PBA principal danificada"
-                  ],
-                  "observações": "Verifique com o cliente se existe algum dano no produto ou na turbina ou obstrução na turbina"
-                },
-                "C155": {
-                  "peças": ["Placa Main Interna (DB92)", "Motor da turbina (DB31)"],
-                  "causas": [
-                    "Falha interna no circuito do motor do ventilador",
-                    "Cabo do motor e PBA principal danificada"
-                  ],
-                  "observações": "Verifique com o cliente se existe algum dano no produto ou na turbina ou obstrução na turbina"
-                },
-                "C163": {
-                  "peças": ["Placa Main Interna (DB92)"],
-                  "causas": [
-                    "Erro de Codigo de opção",
-                    "Problema na placa main da evaporadora - Unidade Interna"
-                  ],
-                  "observações": "Configuração do codigo de opção ou problema na placa principal da evaporadora"
-                },
-                "C162": {
-                  "peças": ["Placa Main Interna (DB92)"],
-                  "causas": [
-                    "Erro de Codigo de opção",
-                    "Problema na placa main da evaporadora - Unidade Interna"
-                  ],
-                  "observações": "Configuração do codigo de opção ou problema na placa principal da evaporadora"
-                },
-                "5C": {
-                  "peças": [
-                    "Bomba de drenagem (DC31)",
-                    "Placa main (DC92) -(EM CASO SE RETORNO OU INTERMITENCIA)"
-                  ],
-                  "causas": [
-                    "Obstrução na bomba de dreno",
-                    "Bomba com defeito",
-                    "Obstrução no filtro"
-                  ],
-                  "observações": "Verifique também o filtro de detritos. , peça uma foto do filtro e da bomba de drenagem"
-                },
-                "4C": {
-                  "peças": ["Valvula de agua", "Conjunto mangueira de nivel"],
-                  "causas": [
-                    "Entupimento do filtro de entrada de agua",
-                    "Baixa pressão de agua - principalmente quando é residencia",
-                    "defeito na valvula de agua"
-                  ],
-                  "observações": "Se o produto tiver muito pouco tempo de comprado considere que possa ser devido a baixa pressão de agua  - Visita Infrutifera"
-                },
-                "DC": {
-                  "peças": ["Trava da porta", "Sensor de travamento da porta"],
-                  "causas": [
-                    "Falha na trava da porta",
-                    "Empenamento mecânico no fechamento da porta",
-                    "defeito no sensor de travamento da porta (caso se aplique)"
-                  ],
-                  "observações": "Em casos de intermitência, verificar se o sensor de trava da porta está funcionando corretamente. Para tal, é possível jumpear o sensor e verificar se o erro persiste."
-                },
-                "DDC": {
-                  "peças": ["Trava da porta add wash", "Sensor de travamento da porta add wash"],
-                  "causas": [
-                    "Falha na trava da porta add wash",
-                    "Empenamento mecânico no fechamento da porta"
-                  ],
-                  "observações": "Em casos de intermitência, verificar se o sensor de trava da porta está funcionando corretamente. Para tal, é possível jumpear o sensor e verificar se o erro persiste."
-                },
-                "1C": {
-                  "peças": ["Pressostato/SENSOR PRESSURE", "Conjunto mangueira de nivel/ASSY HOSE PRESSURE"],
-                  "causas": [
-                    "Defeito no pressostato",
-                    "montagem incorreta",
-                    "mangueira de nível danificada ou entupida"
-                  ],
-                  "observações": "Verificar se em uma visita anterior o pressostato foi montado de forma correta."
-                },
-                "3C": {
-                  "peças": ["Placa principal", "Placa inverter", "Motor de lavagem"],
-                  "causas": [
-                    "Defeito na placa principal",
-                    "Defeito no motor",
-                    "Aterramento da tomada deficiente, verificar ESI"
-                  ],
-                  "observações": "Em caso de reincidência, verificar se o técnico realizou as medições de aterramento."
-                },
-                "TC1": {
-                  "peças": ["Termistor de lavagem", "Placa principal", "Chicote de fios"],
-                  "causas": [
-                    "Termistor de lavagem aberto / em curto / cabeamento rompido",
-                    "Placa principal defeituosa",
-                    "Chicote de fios defeituoso"
-                  ],
-                  "observações": "Em caso de reincidência após reparo, solicitar que o técnico reveja as conexões."
-                },
-                "TC2": {
-                  "peças": ["Termistor de secagem", "Placa principal", "Chicote de fios"],
-                  "causas": [
-                    "Termistor de secagem aberto / em curto / cabeamento rompido",
-                    "Placa principal defeituosa",
-                    "Chicote de fios defeituoso"
-                  ],
-                  "observações": "Em caso de reincidência após reparo, solicitar que o técnico reveja as conexões."
-                },
-                "HOT": {
-                  "peças": ["Termistor de secagem", "Placa principal", "Chicote de fios"],
-                  "causas": [
-                    "Termistor de secagem aberto / em curto / cabeamento rompido",
-                    "Placa principal defeituosa",
-                    "Chicote de fios defeituoso",
-                    "O aparelho pode estar aquecido após funcionamento prolongado"
-                  ],
-                  "observações": "Verificar a resistência do termistor (50kOhms a 25°C). Caso o duto esteja aquecido, retirar o conector do termistor e verificar se o HOT desaparece"
-                },
-                "FC": {
-                  "peças": ["Duto de secagem", "Placa principal", "Chicote de fios"],
-                  "causas": [
-                    "Duto de secagem sujo",
-                    "Ventilador do duto está danificado",
-                    "Chicote de fios defeituoso"
-                  ],
-                  "observações": "A equipe deve ir preparada para limpar ou substituir o duto de secagem"
-                },
-                "HC": {
-                  "peças": ["Termistor de lavagem", "Placa principal", "Chicote de fios"],
-                  "causas": [
-                    "Termistor de lavagem aberto / em curto / cabeamento rompido",
-                    "Placa principal defeituosa",
-                    "Chicote de fios defeituoso",
-                    "Resistencia de lavagem danificada"
-                  ],
-                  "observações": "Verificar a resistência do termistor (10kOhms a 25°C)."
-                },
-                "H2": {
-                  "peças": ["Termostatos de segurança", "Termistor do duto de secagem", "Resistencia de secagem"],
-                  "causas": [
-                    "Termistor de lavagem aberto / em curto / cabeamento rompido",
-                    "Placa principal defeituosa",
-                    "Chicote de fios defeituoso",
-                    "Resistencia de secagem danificada"
-                  ],
-                  "observações": "Verificar a resistência do termistor (50kOhms a 25°C), além de situação geral do duto de secagem e continuidade dos termostatos de segurança e resistencia de secagem (127V ~ 15,5 Ohm / 220V ~ 35,5 Ohm)"
-                },
-                "C554": {
-                  "peças": ["Serpentinas -Interna (DB96)", "Serpentinas - Externa (DB96)"],
-                  "causas": [
-                    "Pequeno vazamento de gás em alguma parte - serpentinas, tubos de conexão",
-                    "Instalação incorreta"
-                  ],
-                  "observações": "Se o produto tiver muito pouco tempo de comprado considere uma possivel - Visita Infrutifera"
-                },
-                "C458": {
-                  "peças": [
-                    "Moto -ventilador - Unidade externa (DB31)",
-                    "Placa externa + eeprom (DB92)"
-                  ],
-                  "causas": ["Ventilador da unidade externa não funionou"],
-                  "observações": "Verificar se não existe obstrução no ventilador ou se o produto não está com o cabo do ventilador danificado"
-                },
-                "C461": {
-                  "peças": ["Compressor", "Placa externa + eeprom (DB92)"],
-                  "causas": [
-                    "Compressor não conseguiu partir",
-                    "Compressor travado",
-                    "Excesso de fluido refrigerante"
-                  ],
-                  "observações": "Verificar se o compressor está com algum defeito ou se existe excesso de fluido refrigerante, se o produto está com a instalação correta"
-                }
-              }
+{
+  "C201": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "PLACA INTERNA (DB92)",
+          "PLACA EXTERNA (DB92)",
+          "EEPROM (DB82)"
+      ],
+      "causas": [
+          "Problema em uma das placas",
+          "Curto ou carbonização nas placas",
+          "Fiação invertida, rompida ou com defeito",
+          "Unidade Externa não está alimentada",
+          "Erro de comunicação da unidade interna e externa"
+      ],
+      "observações": "Verifique o chicote e conectores antes de trocar peças. Verificar quanto tempo de instalado, caso seja em pouco tempo grande chance de ser exclusão de garantia devido a má instalação"
+  },
+  "C101": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "PLACA INTERNA (DB92)",
+          "PLACA EXTERNA (DB92)",
+          "EEPROM (DB82)"
+      ],
+      "causas": [
+          "Problema em uma das placas",
+          "Curto ou carbonização nas placas",
+          "Fiação invertida, rompida ou com defeito",
+          "Unidade Externa não está alimentada"
+      ],
+      "observações": "Verifique o chicote e conectores antes de trocar peças. Verificar quanto tempo de instalado, caso seja em pouco tempo grande chance de ser exclusão de garantia devido a má instalação"
+  },
+  "C154": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Placa Main Interna (DB92)",
+          "Motor da turbina (DB31)"
+      ],
+      "causas": [
+          "Falha interna no circuito do motor do ventilador",
+          "Cabo do motor e PBA principal danificada"
+      ],
+      "observações": "Verifique com o cliente se existe algum dano no produto ou na turbina ou obstrução na turbina"
+  },
+  "C155": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Placa Main Interna (DB92)",
+          "Motor da turbina (DB31)"
+      ],
+      "causas": [
+          "Falha interna no circuito do motor do ventilador",
+          "Cabo do motor e PBA principal danificada"
+      ],
+      "observações": "Verifique com o cliente se existe algum dano no produto ou na turbina ou obstrução na turbina"
+  },
+  "C163": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Placa Main Interna (DB92)"
+      ],
+      "causas": [
+          "Erro de Codigo de opção",
+          "Problema na placa main da evaporadora - Unidade Interna"
+      ],
+      "observações": "Configuração do codigo de opção ou problema na placa principal da evaporadora"
+  },
+  "C162": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Placa Main Interna (DB92)"
+      ],
+      "causas": [
+          "Erro de Codigo de opção",
+          "Problema na placa main da evaporadora - Unidade Interna"
+      ],
+      "observações": "Configuração do codigo de opção ou problema na placa principal da evaporadora"
+  },
+  "5C": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Bomba de drenagem (DC31) ASSY PUMP DRAIN",
+          "Placa main (DC92) -(EM CASO SE RETORNO OU INTERMITENCIA)"
+      ],
+      "causas": [
+          "Obstrução na bomba de dreno",
+          "Bomba com defeito",
+          "Obstrução no filtro"
+      ],
+      "observações": "Verifique também o filtro de detritos. , peça uma foto do filtro e da bomba de drenagem"
+  },
+  "4C": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Valvula de agua (DC62) -VALVE WATER",
+          "Conjunto mangueira de nivel (DC97) - ASSY HOSE PRESSURE"
+      ],
+      "causas": [
+          "Entupimento do filtro de entrada de agua",
+          "Baixa pressão de agua - principalmente quando é residencia",
+          "defeito na valvula de agua"
+      ],
+      "observações": "Se o produto estiver com pouco tempo de comprado considere que possa ser devido a baixa pressão de agua  - Visita Infrutifera"
+  },
+  "DC": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Trava da porta",
+          "Sensor de travamento da porta"
+      ],
+      "causas": [
+          "Falha na trava da porta",
+          "Empenamento mecânico no fechamento da porta",
+          "defeito no sensor de travamento da porta (caso se aplique)"
+      ],
+      "observações": "Em casos de intermitência, verificar se o sensor de trava da porta está funcionando corretamente. Para tal, é possível jumpear o sensor e verificar se o erro persiste."
+  },
+  "DDC": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Trava da porta add wash",
+          "Sensor de travamento da porta add wash"
+      ],
+      "causas": [
+          "Falha na trava da porta add wash",
+          "Empenamento mecânico no fechamento da porta"
+      ],
+      "observações": "Em casos de intermitência, verificar se o sensor de trava da porta está funcionando corretamente. Para tal, é possível jumpear o sensor e verificar se o erro persiste."
+  },
+  "1C": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Pressostato- SENSOR PRESSURE",
+          "Conjunto mangueira de nivel/ASSY HOSE PRESSURE"
+      ],
+      "causas": [
+          "Defeito no pressostato",
+          "montagem incorreta",
+          "mangueira de nível danificada ou entupida"
+      ],
+      "observações": "Verificar se em uma visita anterior o pressostato foi montado de forma correta."
+  },
+  "3C": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Placa principal",
+          "Placa inverter",
+          "Motor de lavagem"
+      ],
+      "causas": [
+          "Defeito na placa principal",
+          "Defeito no motor",
+          "Aterramento da tomada deficiente, verificar ESI"
+      ],
+      "observações": "Em caso de reincidência, verificar se o técnico realizou as medições de aterramento."
+  },
+  "TC1": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Termistor de lavagem",
+          "Placa principal"
+      ],
+      "causas": [
+          "Termistor de lavagem aberto / em curto / cabeamento rompido",
+          "Placa principal defeituosa",
+          "Chicote de fios defeituoso"
+      ],
+      "observações": "Em caso de reincidência após reparo, solicitar que o técnico reveja as conexões."
+  },
+  "TC2": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Termistor de secagem",
+          "Placa principal"
+      ],
+      "causas": [
+          "Termistor de secagem aberto / em curto / cabeamento rompido",
+          "Placa principal defeituosa",
+          "Chicote de fios defeituoso"
+      ],
+      "observações": "Em caso de reincidência após reparo, solicitar que o técnico reveja as conexões."
+  },
+  "HOT": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Termistor de secagem",
+          "Placa principal"
+      ],
+      "causas": [
+          "Termistor de secagem aberto / em curto / cabeamento rompido",
+          "Placa principal defeituosa",
+          "Chicote de fios defeituoso",
+          "O aparelho pode estar aquecido após funcionamento prolongado"
+      ],
+      "observações": "Verificar a resistência do termistor. Caso o duto esteja aquecido, retirar o conector do termistor e verificar se o HOT desaparece. Este erro apresenta apenas no final ou de imediato? Caso de imediato problema no sensor"
+  },
+  "FC": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Duto de secagem",
+          "Placa principal",
+          "Chicote de fios"
+      ],
+      "causas": [
+          "Duto de secagem sujo",
+          "Ventilador do duto está danificado",
+          "Chicote de fios defeituoso"
+      ],
+      "observações": "A equipe deve ir preparada para limpar ou substituir o duto de secagem"
+  },
+  "HC": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Termistor de lavagem",
+          "Placa principal",
+          "Chicote de fios"
+      ],
+      "causas": [
+          "Termistor de lavagem aberto / em curto / cabeamento rompido",
+          "Placa principal defeituosa",
+          "Chicote de fios defeituoso",
+          "Resistencia de lavagem danificada"
+      ],
+      "observações": "Verificar a resistência do termistor (10kOhms a 25°C)."
+  },
+  "H2": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Termostatos de segurança",
+          "Termistor do duto de secagem",
+          "Resistencia de secagem"
+      ],
+      "causas": [
+          "Termistor de lavagem aberto / em curto / cabeamento rompido",
+          "Placa principal defeituosa",
+          "Chicote de fios defeituoso",
+          "Resistencia de secagem danificada"
+      ],
+      "observações": "Verificar a resistência do termistor (50kOhms a 25°C), além de situação geral do duto de secagem e continuidade dos termostatos de segurança e resistencia de secagem (127V ~ 15,5 Ohm / 220V ~ 35,5 Ohm)"
+  },
+  "C554": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Serpentinas -Interna (DB96)",
+          "Serpentinas - Externa (DB96)"
+      ],
+      "causas": [
+          "Pequeno vazamento de gás em alguma parte - serpentinas, tubos de conexão",
+          "Instalação incorreta"
+      ],
+      "observações": "Se o produto tiver muito pouco tempo de comprado considere uma possivel - Visita Infrutifera"
+  },
+  "C458": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Moto -ventilador - Unidade externa (DB31)",
+          "Placa externa + eeprom (DB92)"
+      ],
+      "causas": [
+          "Ventilador da unidade externa não funionou"
+      ],
+      "observações": "Verificar se não existe obstrução no ventilador ou se o produto não está com o cabo do ventilador danificado"
+  },
+  "C461": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Compressor",
+          "Placa externa + eeprom (DB92)"
+      ],
+      "causas": [
+          "Compressor não conseguiu partir",
+          "Compressor travado",
+          "Excesso de fluido refrigerante"
+      ],
+      "observações": "Verificar se o compressor está com algum defeito ou se existe excesso de fluido refrigerante, se o produto está com a instalação correta"
+  },
+  "C422": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "SENSOR DE TEMPERATURA - INTERNA",
+          "SENSOR DE TEMPERATURA - EXTERNA",
+          "COMPRESSOR",
+          "SERPENTINA EXTERNA E INTERNA",
+          "PLACA PRINCIPAL EXTERNA + EEPROM"
+      ],
+      "causas": [
+          "VAZAMENTO DE FLUIDO",
+          "FIOS DE COMUNICAÇÃO OU FASE INVERTIDOS",
+          "Tubo - flexão ou bloqueio do tubo",
+          "SENSOR UNIDADE INTERNA OU EXTERNA DEFEITUOSO"
+      ],
+      "observações": "Verifique com o cliente se o mesmo está alimentado e se o disjuntor está ligado. Pergunte também se houve queda de energia"
+  },
+  "C464": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Compressor",
+          "Placa externa + eeprom (DB92)"
+      ],
+      "causas": [
+          "AUMENTO DE CORRENTE DO COMPRESSOR (CURTO)",
+          "FALHA NO COMPRESSOR (FUGA DE CORRENTE)",
+          "BLOQUEIO POR FLUIDO REFRIGERANTE"
+      ],
+      "observações": "Verifique se o cliente está com a instalação elétrica ok. Disjuntor dedicado, aterramento e fiação conforme padrão exigido"
+  },
+  "C467": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "Compressor",
+          "Placa externa + eeprom (DB92)"
+      ],
+      "causas": [
+          "AUMENTO DE CORRENTE DO COMPRESSOR (CURTO)",
+          "FALHA NO COMPRESSOR (FUGA DE CORRENTE)",
+          "BLOQUEIO POR FLUIDO REFRIGERANTE"
+      ],
+      "observações": "Verifique se o cliente está com a instalação elétrica ok. Disjuntor dedicado, aterramento e fiação conforme padrão exigido"
+  },
+  "AC": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "PLACA PRINCIPAL",
+          "PLACA DISPLAY",
+          "CABEAMENTO"
+      ],
+      "causas": [
+          "CABEAMENTO ROMPIDO",
+          "FALHA EM UMA DAS PLACAS"
+      ],
+      "observações": "O produto do cliente está em um local adequado, livre de roedores?  Ocorreu queda de energia recente?"
+  },
+  "AC6": {
+      "tipo": "",
+      "sintoma": "",
+      "peças": [
+          "PLACA PRINCIPAL",
+          "PLACA INVERTER"
+      ],
+      "causas": [
+          "FALHA NA PLACA INVERTER",
+          "FALHA NA PLACA MAIN",
+          "OXIDAÇÃO",
+          "DANO FISICO"
+      ],
+      "observações": "O produto do cliente está em um local adequado, livre de roedores?  Ocorreu queda de energia recente?"
+  }
+}

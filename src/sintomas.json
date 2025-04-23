@@ -78,5 +78,67 @@
             "Cesto empenado , trincado"
         ],
         "observações": "Peça um video ao cliente do barulho mostrando também a frente da maquina para indentificar se o cesto estar empenado"
+    },
+    "BAIXO RENDIMENTO": {
+        "tipo": "ar",
+        "peças": [
+            "SERPENTINA",
+            "SENSOR DE TEMPERATURA"
+        ],
+        "causas": [
+            "FILTRO SUJO",
+            "BAIXA CARGA DE FLUIDO",
+            "UMIDADE OU ENTPIMENTO NA TUBULAÇÃO"
+        ],
+        "observações": "VERIFIQUE QUANTO TEMPO DE INSTALADO ESTÁ ESTE PRODUTO, CASO SEJA EM POUCO TEMPO, EXISTE UMA POSSIBILIDADE PROBLEMA NA INSTALAÇÃO"
+    },
+    "CHEIRO DE QUEIMADO / FUMAÇA": {
+        "tipo": "lavadora",
+        "peças": [
+            "CESTO COMPLETO",
+            "PAR DE AMORTECEDORES"
+        ],
+        "causas": [
+            "O CHEIRO ACONTECE AO TAMBOR ENCOSTAR NA BORRACHA DA PORTA OU NO TANQUE FRONTAL APÓS O MESMO QUEBRAR"
+        ],
+        "observações": "VERIFIQUE COM O CLIENTE SE O CESTO APRESENTA EMPENAMENTO E O MESMO TAMBÉM APRESENTA BARULHO"
+    },
+    "MAQUINA NÃO SECA - ROUPA SAI UMIDA E QUENTE": {
+        "tipo": "lavadora",
+        "peças": [
+            "VALVULA DE AGUA",
+            "BOMBA DE DRENAGEM"
+        ],
+        "causas": [
+            "O DRENO PODE ESTAR OBSTRUIDO",
+            "PODE EXISTIR UM DANO NA VALVULA",
+            "OS DUTOS PODEM ESTAR OBSTRUIDOS"
+        ],
+        "observações": "VERIQUE COM O CLIENTE SE A MAQUINA FICA COM AGUA REPRESADA NA MAQUINA, SE SIM A BOMBA DE DRENAGEM NÇAO ESTÁ FUNCIONANDO OU COM OBSTRUÇÃO"
+    },
+    "MAQUINA NÃO SECA - ROUPA SAI UMIDA E FRIA": {
+        "tipo": "lavadora",
+        "peças": [
+            "DUTO DE SECAGEM",
+            "SENSOR DE TEMPERATURA DO DUTO"
+        ],
+        "causas": [
+            "DUTO DE SECAGEM NÃO FUNCIONA CONFORME O ESPERADO, POSSIVELMENTE O TERMOFUSIVEL (TERMOSTATO) DEVE ESTAR ABERTO"
+        ],
+        "observações": "CONSULTE COM O CLIENTE SE HOUVE QUEDAS RECENTES DE ENERGIA OU DESLIGAMENTO ACIDENTAL DO PRODUTO"
+    },
+    "MAQUINA DEMORA DEMAIS NO CICLO TRAVANDO": {
+        "tipo": "lavadora",
+        "peças": [
+            "VALVULA DE AGUA",
+            "PLACA PRINCIPAL",
+            "MOTOR"
+        ],
+        "causas": [
+            "A MAQUINA PODE ESTAR DEMORANDO DEVIDO A BAIXA PRESSÃO DE AGUA",
+            "O MOTOR PODE ESTAR COM DEFEITO GERANDO UMA DEMORA NO ENCERRAMENTO DOS CICLOS",
+            "SE O PRODUTO ESTIVER POUCO TEMPO DE INSTALADO É POSSIVEL QUE SEJA DEVIDO A BAIXA PRESSÃO DE AGUA"
+        ],
+        "observações": "VERIFIQUE COM O CLIENTE EM QUE MOMENTO A MAQUINA TRAVA, PERTO DO FINAL OU NO INICIO"
     }
 }
