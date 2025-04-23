@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import sintomas from "./sintomas.json";
 import erros from "./erros.json";
 
 const Container = styled.div`
@@ -8,7 +9,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 2rem;
   font-family: sans-serif;
 `;
@@ -18,6 +19,31 @@ const Title = styled.h1`
   font-weight: bold;
   margin-bottom: 1rem;
   color: #1d4ed8;
+`;
+
+const TabContainer = styled.div`
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+`;
+
+const Tab = styled.button`
+  padding: 0.75rem 1.5rem;
+  background-color: ${(props) => (props.active ? "#1d4ed8" : "#cbd5e1")};
+  color: ${(props) => (props.active ? "white" : "#1e293b")};
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+`;
+
+const Select = styled.select`
+  border: 1px solid #cbd5e1;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  width: 18rem;
 `;
 
 const Input = styled.input`
@@ -38,6 +64,7 @@ const Button = styled.button`
   border-radius: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
+  margin-bottom: 1rem;
   &:hover {
     background-color: #1d4ed8;
   }
@@ -76,12 +103,6 @@ const List = styled.ul`
   list-style: disc;
 `;
 
-const NotFound = styled.p`
-  margin-top: 1rem;
-  color: #dc2626;
-  font-size: 1.125rem;
-`;
-
 const Footer = styled.footer`
   margin-top: 2rem;
   font-size: 0.875rem;
@@ -89,30 +110,84 @@ const Footer = styled.footer`
 `;
 
 function App() {
+  const [categoria, setCategoria] = useState("lavadora");
+  const [sintomaSelecionado, setSintomaSelecionado] = useState("");
   const [codigo, setCodigo] = useState("");
   const [resultado, setResultado] = useState(null);
+  const [abaAtiva, setAbaAtiva] = useState("sintoma");
+  const [sintomasFiltrados, setSintomasFiltrados] = useState([]);
 
-  const buscarErro = () => {
-    const resultadoBusca = erros[codigo.toUpperCase()];
-    setResultado(resultadoBusca || null);
+  useEffect(() => {
+    const filtrados = Object.entries(sintomas)
+      .filter(([_, value]) => value.tipo === categoria)
+      .map(([chave]) => chave);
+    setSintomasFiltrados(filtrados);
+    setSintomaSelecionado("");
+    setResultado(null);
+  }, [categoria]);
+
+  const buscarPorSintoma = () => {
+    const dados = sintomas[sintomaSelecionado];
+    setResultado(dados || null);
+  };
+
+  const buscarPorCodigo = () => {
+    const dados = erros[codigo.toUpperCase()];
+    setResultado(dados || null);
   };
 
   return (
     <Container>
-      <Title>Consulta de Códigos de Erro (WSM E RAC)</Title>
-      <Input
-        type="text"
-        value={codigo}
-        onChange={(e) => setCodigo(e.target.value)}
-        placeholder="Digite o código (ex: C101)"
-      />
-      <Button onClick={buscarErro}>Buscar</Button>
+      <Title>Consulta Triagem</Title>
 
-      {resultado ? (
+      <TabContainer>
+        <Tab active={abaAtiva === "sintoma"} onClick={() => setAbaAtiva("sintoma")}>Buscar por Sintoma</Tab>
+        <Tab active={abaAtiva === "codigo"} onClick={() => setAbaAtiva("codigo")}>Buscar por Código</Tab>
+      </TabContainer>
+
+      {abaAtiva === "sintoma" && (
+        <>
+          <Select value={categoria} onChange={(e) => setCategoria(e.target.value)}>
+            <option value="lavadora">Máquina de Lavar</option>
+            <option value="ar">Ar-Condicionado</option>
+          </Select>
+
+          <Select
+            value={sintomaSelecionado}
+            onChange={(e) => setSintomaSelecionado(e.target.value)}
+          >
+            <option value="">Selecione um sintoma</option>
+            {sintomasFiltrados.map((sintoma, idx) => (
+              <option key={idx} value={sintoma}>
+                {sintoma}
+              </option>
+            ))}
+          </Select>
+
+          <Button onClick={buscarPorSintoma}>Buscar</Button>
+        </>
+      )}
+
+      {abaAtiva === "codigo" && (
+        <>
+          <Input
+            type="text"
+            value={codigo}
+            onChange={(e) => setCodigo(e.target.value)}
+            placeholder="Digite o código (ex: C101)"
+          />
+          <Button onClick={buscarPorCodigo}>Buscar</Button>
+        </>
+      )}
+
+      {resultado && (
         <ResultBox>
-          <Section>
-            <Label>Resultado para {codigo.toUpperCase()}:</Label>
-          </Section>
+          {abaAtiva === "sintoma" && (
+            <Section>
+              <Label>Sintoma:</Label>
+              <Content>{sintomaSelecionado}</Content>
+            </Section>
+          )}
           <Section>
             <Label>Peças sugeridas:</Label>
             <List>
@@ -134,8 +209,6 @@ function App() {
             <Content>{resultado.observações}</Content>
           </Section>
         </ResultBox>
-      ) : (
-        codigo && <NotFound>Código não encontrado.</NotFound>
       )}
 
       <Footer>Desenvolvido por Daniel Carvalho - 2025</Footer>

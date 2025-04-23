@@ -1,0 +1,82 @@
+{
+    "NÃO LIGA": {
+        "tipo": "ar",
+        "peças": [
+            "Placa Principal da unidade interna",
+            "Placa display"
+        ],
+        "causas": [
+            "Sobrecarga eletrica - Disjuntor desarmado - Baixa tensão"
+        ],
+        "observações": "Verifique com o cliente se o produto está energizado com o disjuntor operante. Veja se houve queda de energia ou oscilação recente."
+    },
+    "TRAVA NO CICLO": {
+        "tipo": "lavadora",
+        "peças": [
+            "PLACA PRINCIPAL - INVERTER E MAIN",
+            "BOMBA DE DRENAGEM"
+        ],
+        "causas": [
+            "Possivelmente existe alguma osbtrução no filtro da bomba de drenagem"
+        ],
+        "observações": "verifique em que momento ela trava durante o ciclo"
+    },
+    "BARULHO NA UNIDADE INTERNA": {
+        "tipo": "ar",
+        "peças": [
+            "TURBINA",
+            "MOTOR VENTILADOR"
+        ],
+        "causas": [
+            "Sujeira - Dano fisico na turbina"
+        ],
+        "observações": "Verifique o tipo de barulho - Se for barulho de \"vento\" , \"Soprando\" provavelmente será sujeira no filtro"
+    },
+    "BARULHO NA UNIDADE EXTERNA": {
+        "tipo": "ar",
+        "peças": [
+            "Compressor",
+            "Borracha do compressor"
+        ],
+        "causas": [
+            "Tubulação batendo - compressor - Base do compressor folgada"
+        ],
+        "observações": "Verifique o tipo de barulho - Caso seja barulho de tubos e intermitente pode ser a tubulação batendo nesse caso será somente ajuste . EM alguns casos pode ser a operação normal do produto"
+    },
+    "NÃO CENTRIFUGA": {
+        "tipo": "lavadora",
+        "peças": [
+            "BOMBA",
+            "PLACA PRINCIPAL"
+        ],
+        "causas": [
+            "Obstrução na bomba de drenagem, bomba com defeito"
+        ],
+        "observações": "Verifique com o cliente se o mesmo costuma limpar regularmente o filtro da bomba de drenagem. Caso não possivelmente estara obstruida"
+    },
+    "TAMBOR SOLTO": {
+        "tipo": "lavadora",
+        "peças": [
+            "CESTO COMPLETO",
+            "PAR DE AMORTECEDORES"
+        ],
+        "causas": [
+            "Cesto danificado / quebrado  / Excesso de peso"
+        ],
+        "observações": "Verique com o cliente se possui vazemnto de agua também, pois nesses caso também será necessária a avliação para ver quais mais peças são necessárias"
+    },
+    "BARULHO NA CENTRIFUGAÇÃO": {
+        "tipo": "lavadora",
+        "peças": [
+            "Par de amortecedores",
+            "Cesto",
+            "Par de Contrapesos"
+        ],
+        "causas": [
+            "Par de contrapesos danificados soltos",
+            "amortecedores gastos",
+            "Cesto empenado , trincado"
+        ],
+        "observações": "Peça um video ao cliente do barulho mostrando também a frente da maquina para indentificar se o cesto estar empenado"
+    }
+}
