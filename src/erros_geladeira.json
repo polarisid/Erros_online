@@ -1,0 +1,120 @@
+{
+    "wifi": {
+        "tipo": "geladeira",
+        "sintoma": "Conectividade Wi-Fi piscando",
+        "peças": [
+            "Placa principal",
+            "Módulo de Wi-Fi"
+        ],
+        "causas": [
+            "Erro na configuração de rede",
+            "Falha de comunicação do módulo"
+        ],
+        "observações": "Verifique se a geladeira está próxima do roteador e tente reconectar ao SmartThings."
+    },
+    "gota": {
+        "tipo": "geladeira",
+        "sintoma": "Geladeira não gela em nenhum compartimento",
+        "peças": [
+            "Placa inverter",
+            "Compressor",
+            "Placa main"
+        ],
+        "causas": [
+            "Compressor com defeito",
+            "Falha na placa inverter"
+        ],
+        "observações": "Necessária possivel reoperação no produto com troca de compressor"
+    },
+    "folha": {
+        "tipo": "geladeira",
+        "sintoma": "Modo Econômico piscando",
+        "peças": [
+            "Sensor de porta",
+            "Placa principal"
+        ],
+        "causas": [
+            "Porta aberta por muito tempo",
+            "Falha no sensor de porta"
+        ],
+        "observações": "Verifique o fechamento correto da porta e funcionalidade do sensor."
+    },
+    "copo": {
+        "tipo": "geladeira",
+        "sintoma": "Dispensador de água piscando",
+        "peças": [
+            "Motor da bomba de água",
+            "Sensor de nível"
+        ],
+        "causas": [
+            "Reservatório vazio",
+            "Filtro entupido"
+        ],
+        "observações": "Verifique o reservatório e limpe o sistema de filtragem."
+    },
+    "1c": {
+        "tipo": "geladeira",
+        "sintoma": "Indicador de 1°C piscando",
+        "peças": [
+            "Sensor de temperatura",
+            "Placa principal"
+        ],
+        "causas": [
+            "Temperatura não atinge valor esperado",
+            "Erro no sensor"
+        ],
+        "observações": "Medição pode estar incorreta. Testar sensor de temperatura."
+    },
+    "2c": {
+        "tipo": "geladeira",
+        "sintoma": "Indicador de 2°C piscando",
+        "peças": [
+            "Sensor de temperatura",
+            "Placa principal"
+        ],
+        "causas": [
+            "Refrigeração lenta",
+            "Ambiente externo muito quente"
+        ],
+        "observações": "Verifique o sensor e isolação do produto."
+    },
+    "3c": {
+        "tipo": "geladeira",
+        "sintoma": "Indicador de 3°C piscando",
+        "peças": [
+            "Sensor de temperatura",
+            "Placa de controle"
+        ],
+        "causas": [
+            "Flutuação de energia",
+            "Problemas na refrigeração"
+        ],
+        "observações": "Verificar estabilização da energia e funcionamento do compressor."
+    },
+    "4c": {
+        "tipo": "geladeira",
+        "sintoma": "Indicador de 4°C piscando",
+        "peças": [
+            "Sensor de temperatura",
+            "Compressor"
+        ],
+        "causas": [
+            "Instalação recente",
+            "Sistema ainda estabilizando"
+        ],
+        "observações": "Aguarde até 24h após instalação. Se persistir, testar componentes."
+    },
+    "7c": {
+        "tipo": "geladeira",
+        "sintoma": "Indicador de 7°C piscando",
+        "peças": [
+            "Sensor de temperatura",
+            "Placa eletrônica"
+        ],
+        "causas": [
+            "Refrigeração ineficiente",
+            "Ambiente com alta umidade"
+        ],
+        "observações": "Avaliar se portas estão fechando corretamente e sensor está íntegro."
+    }
+}
